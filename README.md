@@ -15,3 +15,5 @@ All 3 babel configs (`babel.config.js` in the root and both `.babelrc.js` in eac
 Another thing I need to be able to do is to transpile all the needed files beforehand in order to deploy them and run them with node in a remote server (like heroku). For this purpose I added a `yarn build` script to the `main` package, and a `yarn run-build` script that should run that build with `node`. That one doesn't work either (but I assume that is because I should tell babel to transpile the other package explicitly, which I don't know how to do).
 
 If you could help me out I would be extremely grateful.
+
+(Be sure to check out the dependency versions I'm using, as I'm not sure they are the correct ones. I tried to use version 7.1.0 of all things babel-related)
