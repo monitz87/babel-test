@@ -1,0 +1,27 @@
+{
+  "name": "@babeltest/shared",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Jeremias Diaz <monitz87@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/shared.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@babel/runtime": "7.1.1"    
+  },
+  "devDependencies": {
+    "@babel/core": "7.1.0",
+    "@babel/cli": "7.1.0",
+    "@babel/preset-env": "7.1.0"
+  }
+}
